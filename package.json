@@ -1,7 +1,7 @@
 {
 	"name": "janeway",
 	"description": "A curses-based console",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "Jelle De Loecker <jelle@codedor.be>",
 	"keywords": ["console", "terminal", "debug", "debugger", "log", "devtools"],
 	"repository": "git@github.com:skerit/janeway.git",
