@@ -1,3 +1,11 @@
+## 0.1.2 (WIP)
+
+* Fixed bug where lines were kept in memory
+* Fixed global scope command problem (removed vm in favour of regular eval)
+* Added Janeway.debug method, which outputs to a logfile
+* Upgraded "blessed" dependency to 0.0.38
+* More minor bugfixes
+
 ## 0.1.1 (2014-09-15)
 
 * require('janeway') will now return an instance of the Janeway class

@@ -8,7 +8,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"protoblast": "0.1.x",
-		"blessed": "0.0.37"
+		"blessed": "0.0.38"
 	},
 	"engines": {
 		"node": ">=0.10"
