@@ -1,6 +1,6 @@
-## 0.1.2 (WIP)
+## 0.1.2 (2015-01-26)
 
-* Fixed bug where lines were kept in memory
+* Fixed bug where lines were kept in memory and causes screen glitches
 * Fixed global scope command problem (removed vm in favour of regular eval)
 * Added Janeway.debug method, which outputs to a logfile
 * Upgraded "blessed" dependency to 0.0.38
