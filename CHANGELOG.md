@@ -1,3 +1,7 @@
+## 0.1.3 (WIP)
+
+* Stringify Objects using util.inspect, to prevent toJSON interference
+
 ## 0.1.2 (2015-01-26)
 
 * Fixed bug where lines were kept in memory and causes screen glitches
