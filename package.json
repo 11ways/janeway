@@ -1,14 +1,14 @@
 {
 	"name": "janeway",
 	"description": "A curses-based console",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
 	"keywords": ["console", "terminal", "debug", "debugger", "log", "devtools"],
 	"repository": "git@github.com:skerit/janeway.git",
 	"license": "MIT",
 	"dependencies": {
 		"protoblast": "0.1.x",
-		"blessed": "0.0.38"
+		"blessed": "0.0.49"
 	},
 	"engines": {
 		"node": ">=0.10"
