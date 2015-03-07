@@ -1,6 +1,9 @@
-## 0.1.3 (WIP)
+## 0.1.3 (2015-03-07)
 
 * Stringify Objects using util.inspect, to prevent toJSON interference
+* Caller info is added (where the output came from in the script)
+* Strings with newlines will be printed out along multiple lines when selected
+* Updated blessed dependency
 
 ## 0.1.2 (2015-01-26)
 
