@@ -1,3 +1,7 @@
+## 0.1.4 (WIP)
+
+* Improve multiline string support
+
 ## 0.1.3 (2015-03-07)
 
 * Stringify Objects using util.inspect, to prevent toJSON interference
