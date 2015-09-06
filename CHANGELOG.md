@@ -1,6 +1,7 @@
 ## 0.1.4 (WIP)
 
 * Improve multiline string support
+* Upgrade `blessed` package
 
 ## 0.1.3 (2015-03-07)
 
