@@ -5,6 +5,7 @@
 * Throttle the `render` method to not overload the process
 * Automatically scroll down when new line is added
 * Clicking on functions will now read out properties
+* Pressing pageup/pagedown will scroll up or down
 
 ## 0.1.3 (2015-03-07)
 
