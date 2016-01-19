@@ -1,4 +1,4 @@
-## 0.1.4 (WIP)
+## 0.1.4 (2016-01-20)
 
 * Improve multiline string support
 * Upgrade `blessed` dependency to 0.1.81
@@ -6,6 +6,7 @@
 * Automatically scroll down when new line is added
 * Clicking on functions will now read out properties
 * Pressing pageup/pagedown will scroll up or down
+* Fix click/scroll index issues
 
 ## 0.1.3 (2015-03-07)
 
