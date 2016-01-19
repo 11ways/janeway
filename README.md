@@ -43,6 +43,13 @@ var Janeway = require('janeway');
 Janeway.start();
 ```
 
+The screen automatically scrolls down when a new line is pushed (unless you've scrolled the screen manually).
+You can disable this like so:
+
+```javascript
+Janeway.scrollDown = false;
+```
+
 ## License
 
 MIT
