@@ -1,5 +1,7 @@
 ## 0.1.5 (WIP)
 
+* Add autocomplete (basic for now)
+
 ## 0.1.4 (2016-01-20)
 
 * Improve multiline string support

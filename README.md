@@ -12,12 +12,13 @@ A curses/blessed-based console, inspired by the developer tools in Webkit/Blink.
 ## Features
 
 * Interactive command line, that always has focus
+* Autocomplete
 * Output is clickable. Variables can be inspected, just like in the browser
 
 ## Todo
 
+* Use editor-widget for CLI: https://github.com/slap-editor/editor-widget
 * Improve command-line eval/vm situation
-* Fix bugs & screen glitches
 * Improve colouring
 * Improve multiline support
 * Filename & line information per log line
