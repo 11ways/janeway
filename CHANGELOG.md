@@ -1,6 +1,7 @@
 ## 0.1.5 (WIP)
 
 * Add autocomplete (basic for now)
+* Add CLI history
 
 ## 0.1.4 (2016-01-20)
 

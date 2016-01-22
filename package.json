@@ -7,8 +7,8 @@
 	"repository": "git@github.com:skerit/janeway.git",
 	"license": "MIT",
 	"dependencies": {
-		"protoblast": "~0.1.11",
-		"blessed": "~0.1.81"
+		"blessed": "~0.1.81",
+		"protoblast": "~0.1.11"
 	},
 	"engines": {
 		"node": ">=0.10"
