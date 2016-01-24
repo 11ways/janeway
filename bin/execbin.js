@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var Janeway = require('./init.js'),
+var Janeway = require('../lib/init.js'),
     libpath = require('path'),
     main_file;
 

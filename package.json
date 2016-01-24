@@ -1,6 +1,6 @@
 {
 	"name": "janeway",
-	"description": "A curses-based console",
+	"description": "A mouse-driven REPL shell",
 	"bin": {
 		"janeway": "bin/execbin.js"
 	},
