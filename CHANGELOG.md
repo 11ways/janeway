@@ -2,6 +2,8 @@
 
 * Add autocomplete (basic for now)
 * Add CLI history
+* Allow Janeway to be run globally
+* Add date object to line info
 
 ## 0.1.4 (2016-01-20)
 
