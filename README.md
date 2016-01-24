@@ -10,7 +10,13 @@ A curses/blessed-based console, inspired by the developer tools in Webkit/Blink.
 
 ## Install
 
+Install it for use in your own application:
+
 `npm install janeway`
+
+Or use it globally:
+
+`npm install -g janeway`
 
 ## Features
 
@@ -30,9 +36,15 @@ A curses/blessed-based console, inspired by the developer tools in Webkit/Blink.
 
 As you can see, there's a lot that still needs to be done.
 
+## Use it globally
+
+Start your applications like so:
+
+`janeway my_js_file.js`
+
 ## Use as standalone
 
-If you just want to give it a go:
+If you just want to give it a go, try out the `start.js` file in Janeway's main folder:
 
 `node start.js`
 

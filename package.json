@@ -1,6 +1,9 @@
 {
 	"name": "janeway",
 	"description": "A curses-based console",
+	"bin": {
+		"janeway": "bin/execbin.js"
+	},
 	"version": "0.1.5-alpha",
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
 	"keywords": ["console", "terminal", "debug", "debugger", "log", "devtools", "repl", "shell"],
