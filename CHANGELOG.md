@@ -1,4 +1,4 @@
-## 0.1.5 (WIP)
+## 0.1.5 (2016-01-24)
 
 * Add autocomplete (basic for now)
 * Add CLI history
