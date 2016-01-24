@@ -4,7 +4,7 @@
 	"bin": {
 		"janeway": "bin/execbin.js"
 	},
-	"version": "0.1.5",
+	"version": "0.1.6-alpha",
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
 	"keywords": ["console", "terminal", "debug", "debugger", "log", "devtools", "repl", "shell"],
 	"repository": "git@github.com:skerit/janeway.git",
