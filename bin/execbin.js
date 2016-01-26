@@ -4,7 +4,9 @@ var Janeway = require('../lib/init.js'),
     main_file;
 
 // Get the wanted file to require
-main_file = libpath.resolve(process.cwd(), process.argv[2]);
+if (process.argv[2]) {
+  main_file = libpath.resolve(process.cwd(), process.argv[2]);
+}
 
 // Remove janeway from the arguments array
 process.argv.splice(1, 1);
@@ -17,8 +19,10 @@ Janeway.start(function started(err) {
 	}
 
 	try {
-		Janeway.print('info', ['Requiring main file', JSON.stringify(process.argv[1])]);
-		require(main_file);
+    if (main_file) {
+			Janeway.print('info', ['Requiring main file', JSON.stringify(process.argv[1])]);
+      require(main_file);
+    }
 	} catch (err) {
 		console.log('Error requiring main file: ' + err);
 	}
