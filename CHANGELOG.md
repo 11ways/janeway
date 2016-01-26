@@ -1,5 +1,7 @@
 ## 0.1.6 (WIP)
 
+* Add brackets when opening objects
+
 ## 0.1.5 (2016-01-24)
 
 * Add autocomplete (basic for now)
