@@ -66,6 +66,11 @@ You can disable this like so:
 Janeway.scrollDown = false;
 ```
 
+## Author
+
+You can follow me on twitter: [![Twitter](http://i.imgur.com/wWzX9uB.png)@skeriten](https://www.twitter.com/skeriten)
+
+
 ## License
 
 MIT
