@@ -3,6 +3,8 @@
 * Add brackets when opening objects
 * Also split strings on \r\n or \r newlines
 * Show `__proto__` property when inspecting objects
+* Add timestamp to loglines
+* Remove '.js' from filenames
 
 ## 0.1.5 (2016-01-24)
 
