@@ -1,4 +1,6 @@
-## 0.1.6 (WIP)
+## 0.1.7 (WIP)
+
+## 0.1.6 (2016-06-02)
 
 * Add brackets when opening objects
 * Also split strings on \r\n or \r newlines
