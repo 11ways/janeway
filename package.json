@@ -4,14 +4,14 @@
 	"bin": {
 		"janeway": "bin/execbin.js"
 	},
-	"version": "0.1.6-alpha",
-	"author": "Jelle De Loecker <jelle@kipdola.be>",
+	"version": "0.1.6",
+	"author": "Jelle De Loecker <jelle@develry.be>",
 	"keywords": ["console", "terminal", "debug", "debugger", "log", "devtools", "repl", "shell"],
-	"repository": "git@github.com:skerit/janeway.git",
+	"repository": "https://www.github.com/skerit/janeway.git",
 	"license": "MIT",
 	"dependencies": {
 		"blessed": "~0.1.81",
-		"protoblast": "~0.1.11"
+		"protoblast": ">=0.1.11"
 	},
 	"engines": {
 		"node": ">=0.10"
