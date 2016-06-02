@@ -5,6 +5,9 @@
 * Show `__proto__` property when inspecting objects
 * Add timestamp to loglines
 * Remove '.js' from filenames
+* Added `uncaughtException` listener to print errors before crashing
+* Changed scrolledManually and scrollDown property to underscored name
+* Let Janeway handle application crashes better
 
 ## 0.1.5 (2016-01-24)
 

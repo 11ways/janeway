@@ -63,8 +63,26 @@ The screen automatically scrolls down when a new line is pushed (unless you've s
 You can disable this like so:
 
 ```javascript
-Janeway.scrollDown = false;
+Janeway.scroll_down = false;
 ```
+
+## uncaughtExceptions
+
+By default Janeway will add an `uncaughtException` handler.
+
+It simple re-throws the error to circumvent `blessed`'s one,
+which would hide the error message and stacktrace.
+
+As soon as you add another listener, Janeway will ignore uncaught
+exceptions and let you handle them.
+
+You can also let Janeway simply print out errors, instead of closing:
+
+```
+Janeway.shutdown_on_exception = false;
+```
+
+This is not recomended, but can be useful during development.
 
 ## Author
 
