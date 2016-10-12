@@ -1,5 +1,9 @@
 ## 0.1.7 (WIP)
 
+* Added menu bar
+* Added 'Copy' button to copy current selection to the clipboard
+* The currently selected object/string will be stored under the $0 global
+
 ## 0.1.6 (2016-06-02)
 
 * Add brackets when opening objects

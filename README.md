@@ -23,6 +23,7 @@ Or use it globally:
 * Interactive command line, that always has focus
 * Autocomplete
 * Output is clickable. Variables can be inspected, just like in the browser
+* Selected variables can be copied to clipboard
 
 ## Todo
 
@@ -83,6 +84,20 @@ Janeway.shutdown_on_exception = false;
 ```
 
 This is not recomended, but can be useful during development.
+
+# Copy to clipboard
+
+At the top of the screen there is a menubar, currently it only contains 1 button: "Copy".
+
+When you click this, the currently selected element will be copied into the clipboard. Objects will be JSON-ified using JSON-Dry.
+
+Here are a few things you might need to configure first:
+
+* Install xclip
+* Enable X11 forwarding when using an SSH session
+* You might need `xvfb` on headless SSH servers
+* If you're multiplexing SSH connections, the first one will need to have X11 forwarding enabled!
+
 
 ## Author
 
