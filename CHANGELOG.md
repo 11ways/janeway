@@ -3,6 +3,7 @@
 * Added menu bar
 * Added 'Copy' button to copy current selection to the clipboard
 * The currently selected object/string will be stored under the $0 global
+* `Janeway#setTitle(str)` will now set the title of the terminal tab
 
 ## 0.1.6 (2016-06-02)
 

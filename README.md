@@ -79,11 +79,25 @@ exceptions and let you handle them.
 
 You can also let Janeway simply print out errors, instead of closing:
 
-```
+```javascript
 Janeway.shutdown_on_exception = false;
 ```
 
 This is not recomended, but can be useful during development.
+
+# Set terminal title
+
+You can set the terminal's title with this Janeway method:
+
+```javascript
+Janeway.setTitle('My beautiful title');
+```
+
+When the application exits the title will be restored. You can also manually unset the title with an explicit false as parameter:
+
+```javascript
+Janeway.setTitle(false);
+```
 
 # Copy to clipboard
 
