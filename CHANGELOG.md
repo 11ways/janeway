@@ -4,6 +4,9 @@
 * Added 'Copy' button to copy current selection to the clipboard
 * The currently selected object/string will be stored under the $0 global
 * `Janeway#setTitle(str)` will now set the title of the terminal tab
+* Remove 'Line 0' when Janeway starts
+* If a new line contains the same data as the previous one, it is not
+  printed to screen, but a counter is added to that previous line.
 
 ## 0.1.6 (2016-06-02)
 
