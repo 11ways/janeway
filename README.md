@@ -6,7 +6,7 @@ A Node.js console REPL with object inspection and many other features.
 [![NPM version](http://img.shields.io/npm/v/janeway.svg)](https://npmjs.org/package/janeway) 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=skerit&url=https://github.com/skerit/janeway&title=Janeway&language=&tags=github&category=software)
 
-![Console](https://raw.githubusercontent.com/skerit/janeway/master/img/console-02.gif "Console")
+![Console](https://raw.githubusercontent.com/skerit/janeway/master/img/console-03.gif "Console")
 
 ## Install
 
