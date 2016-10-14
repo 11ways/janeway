@@ -7,6 +7,7 @@
 * Remove 'Line 0' when Janeway starts
 * If a new line contains the same data as the previous one, it is not
   printed to screen, but a counter is added to that previous line.
+* The CLI now uses a modified Textarea widget: arrow keys, delete, home, end now all work as they should
 
 ## 0.1.6 (2016-06-02)
 
