@@ -1,4 +1,4 @@
-## 0.2.0 (WIP)
+## 0.2.0 (2016-10-14)
 
 * Added menu bar
 * Added 'Copy' button to copy current selection to the clipboard

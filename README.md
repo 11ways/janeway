@@ -25,18 +25,6 @@ Or use it globally:
 * Output is clickable. Variables can be inspected, just like in the browser
 * Selected variables can be copied to clipboard
 
-## Todo
-
-* Use editor-widget for CLI: https://github.com/slap-editor/editor-widget
-* Improve command-line eval/vm situation
-* Improve colouring
-* Improve multiline support
-* Filename & line information per log line
-* Add Janeway quotes
-* ...
-
-As you can see, there's a lot that still needs to be done.
-
 ## Use it globally
 
 Start your applications like so:
@@ -57,7 +45,9 @@ You can load Janeway like this:
 var Janeway = require('janeway');
 
 // Janeway will take over the screen only when you call start
-Janeway.start();
+Janeway.start(function started() {
+
+});
 ```
 
 The screen automatically scrolls down when a new line is pushed (unless you've scrolled the screen manually).
