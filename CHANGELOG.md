@@ -16,7 +16,7 @@
 * The new CLI evaluation now has access to `require`
 * Because of ditching `eval`, declaring variables (or asigning without `var`) will no longer create a global. In order to create on, you'll have to do something like `global.myglobal = 'globalvalue'`
 * Added `getPropertyNames` to recursively look through an object's prototype chain to fill the autocomplete popup
-* If command evaluation fails the first time, try again enclosed in parentheses, which turns it into an expression
+* Command evaluation will first wrap the command in parentheses, if it fails it tries it without them.
 * The `janeway` command will set the title on boot
 * Autocomplete will now also select current item when typing '(', it already does this for '.', a tab and an enter
 
