@@ -12,6 +12,9 @@
 * Move classes to the Develry.Janeway namespace
 * The Janeway instance can now be accessed at the `__Janeway` global
 * Only +/- 1000 lines will be stored, when going over that the top lines will be removed
+* `eval` is no longer used to evaluate CLI code, now `vm#runInNewContext` is used
+* The new CLI evaluation now has access to `require`
+* Because of ditching `eval`, declaring variables (or asigning without `var`) will no longer create a global. In order to create on, you'll have to do something like `global.myglobal = 'globalvalue'`
 
 ## 0.1.6 (2016-06-02)
 
