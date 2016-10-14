@@ -18,6 +18,7 @@
 * Added `getPropertyNames` to recursively look through an object's prototype chain to fill the autocomplete popup
 * If command evaluation fails the first time, try again enclosed in parentheses, which turns it into an expression
 * The `janeway` command will set the title on boot
+* Autocomplete will now also select current item when typing '(', it already does this for '.', a tab and an enter
 
 ## 0.1.6 (2016-06-02)
 
