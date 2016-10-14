@@ -16,6 +16,7 @@
 * The new CLI evaluation now has access to `require`
 * Because of ditching `eval`, declaring variables (or asigning without `var`) will no longer create a global. In order to create on, you'll have to do something like `global.myglobal = 'globalvalue'`
 * Added `getPropertyNames` to recursively look through an object's prototype chain to fill the autocomplete popup
+* If command evaluation fails the first time, try again enclosed in parentheses, which turns it into an expression
 
 ## 0.1.6 (2016-06-02)
 
