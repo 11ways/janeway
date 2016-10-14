@@ -1,7 +1,7 @@
 Janeway
 =======
 
-A curses/blessed-based console, inspired by the developer tools in Webkit/Blink.
+A Node.js console REPL with object inspection and many other features.
 
 [![NPM version](http://img.shields.io/npm/v/janeway.svg)](https://npmjs.org/package/janeway) 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=skerit&url=https://github.com/skerit/janeway&title=Janeway&language=&tags=github&category=software)
