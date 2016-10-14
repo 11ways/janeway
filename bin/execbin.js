@@ -14,14 +14,20 @@ process.argv.splice(1, 1);
 // Start initializing janeway
 Janeway.start(function started(err) {
 
+	var title;
+
 	if (err) {
 		console.error('Could not start Janeway: ' + err);
 	}
 
 	try {
 		if (main_file) {
-			Janeway.print('info', ['Requiring main file', JSON.stringify(process.argv[1])]);
+			title = JSON.stringify(process.argv[1]);
+			Janeway.print('info', ['Requiring main file', title]);
+			Janeway.setTitle('Janeway: ' + title);
 			require(main_file);
+		} else {
+			Janeway.setTitle('Janeway');
 		}
 	} catch (err) {
 		console.log('Error requiring main file: ' + err);
