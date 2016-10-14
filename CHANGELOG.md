@@ -10,6 +10,8 @@
 * The CLI now uses a modified Textarea widget: arrow keys, delete, home, end now all work as they should
 * Added a statusbar under the CLI, which can be set using `Janeway#setStatus`, it should only be given regular text, though it does support blessed tags.
 * Move classes to the Develry.Janeway namespace
+* The Janeway instance can now be accessed at the `__Janeway` global
+* Only +/- 1000 lines will be stored, when going over that the top lines will be removed
 
 ## 0.1.6 (2016-06-02)
 
