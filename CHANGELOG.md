@@ -1,4 +1,4 @@
-## 0.1.7 (WIP)
+## 0.2.0 (WIP)
 
 * Added menu bar
 * Added 'Copy' button to copy current selection to the clipboard
@@ -8,6 +8,8 @@
 * If a new line contains the same data as the previous one, it is not
   printed to screen, but a counter is added to that previous line.
 * The CLI now uses a modified Textarea widget: arrow keys, delete, home, end now all work as they should
+* Added a statusbar under the CLI, which can be set using `Janeway#setStatus`, it should only be given regular text, though it does support blessed tags.
+* Move classes to the Develry.Janeway namespace
 
 ## 0.1.6 (2016-06-02)
 

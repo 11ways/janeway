@@ -99,6 +99,45 @@ When the application exits the title will be restored. You can also manually uns
 Janeway.setTitle(false);
 ```
 
+# Set statusbar
+
+Since version 0.2.0 Janeway also has a statusbar at the bottom of the screen. This can be used for shorter, text-only messages of medium importance.
+
+```javascript
+Janeway.setStatus('This is the statusbar!');
+```
+
+By default Janeway will add `{right}` blessed tags, which causes the text to be rendered on the right side of the screen. You can also use other blessed tags in your text.
+
+Janeway will also return a `Status` object. In case you plan on creating some kind of spinner there, it is best to update it like this:
+
+```javascript
+var spinner;
+
+// Some crappy code just to show how status setText works
+var id = setInterval(function spinnerInterval() {
+
+    var spintext;
+
+    if (!spinner) {
+        spinner = Janeway.setStatus();
+    }
+
+    i += 10;
+
+    spintext = Janeway.Blast.Bound.String.multiply('*', Math.ceil(i/10));
+    spintext += Janeway.Blast.Bound.String.multiply(' ', Math.ceil((100-i)/10));
+
+    spinner.setText(spintext);
+
+    if (i == 100) {
+        clearInterval(id);
+    }
+}, 500);
+```
+
+This is done because (in a later version) status messages are stored in an array so you can see a history of them.
+
 # Copy to clipboard
 
 At the top of the screen there is a menubar, currently it only contains 1 button: "Copy".
