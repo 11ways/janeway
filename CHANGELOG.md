@@ -1,6 +1,7 @@
 ## 0.2.1 (WIP)
 
 * Added spinners, which can be rendered in the statusbar
+* Added `Janeway#redraw`, which forces a re-render
 
 ## 0.2.0 (2016-10-14)
 
