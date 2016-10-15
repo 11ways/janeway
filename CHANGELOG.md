@@ -1,5 +1,7 @@
 ## 0.2.1 (WIP)
 
+* Added spinners, which can be rendered in the statusbar
+
 ## 0.2.0 (2016-10-14)
 
 * Added menu bar
