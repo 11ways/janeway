@@ -2,6 +2,7 @@
 
 * Added spinners, which can be rendered in the statusbar
 * Added `Janeway#redraw`, which forces a re-render
+* Added indicators
 
 ## 0.2.0 (2016-10-14)
 

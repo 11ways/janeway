@@ -30,6 +30,6 @@ Janeway.start(function started(err) {
 			Janeway.setTitle('Janeway');
 		}
 	} catch (err) {
-		console.log('Error requiring main file: ' + err);
+		console.log('Error requiring main file: ', err);
 	}
 });
