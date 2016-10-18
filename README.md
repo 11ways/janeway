@@ -128,6 +128,23 @@ var id = setInterval(function spinnerInterval() {
 
 This is done because (in a later version) status messages are stored in an array so you can see a history of them.
 
+# Indicators
+
+Since version 0.2.1 an indicator area has been added to the topright corner, you can add one like this:
+
+```javascript
+var indicator = Janeway.addIndicator({icon: '{red-fg}◉{/red-fg}'});
+
+// Change the icon
+indicator.setIcon('○');
+
+// Set a hover text
+indicator.setHover('This is some hovertext');
+
+// Remove the indicator again
+indicator.remove();
+```
+
 # Copy to clipboard
 
 At the top of the screen there is a menubar, currently it only contains 1 button: "Copy".
