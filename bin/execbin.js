@@ -25,6 +25,11 @@ Janeway.start(function started(err) {
 			title = JSON.stringify(process.argv[1]);
 			Janeway.print('info', ['Requiring main file', title]);
 			Janeway.setTitle('Janeway: ' + title);
+
+			if (require.main) {
+				require.main.janeway_required = main_file;
+			}
+
 			require(main_file);
 		} else {
 			Janeway.setTitle('Janeway');
