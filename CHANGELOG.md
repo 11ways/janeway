@@ -1,3 +1,5 @@
+## 0.2.3 (WIP)
+
 ## 0.2.2 (2017-04-17)
 
 * Set required file on `require.main` object
