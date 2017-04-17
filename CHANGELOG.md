@@ -1,4 +1,7 @@
-## 0.2.2 (WIP)
+## 0.2.2 (2017-04-17)
+
+* Set required file on `require.main` object
+* `LogList#consoleLog` will now return the created `LogLine`
 
 ## 0.2.1 (2016-10-18)
 
