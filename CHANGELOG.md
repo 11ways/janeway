@@ -1,5 +1,8 @@
 ## 0.2.3 (WIP)
 
+* `Janeway#args_name_map` property can be used to change which name `ArgsLogLine` shows (by default it's the filename with .js stripped of)
+* Fix bug where indicator hover text would not be saved if updated while already visible
+
 ## 0.2.2 (2017-04-17)
 
 * Set required file on `require.main` object
