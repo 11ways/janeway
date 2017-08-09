@@ -158,6 +158,109 @@ Here are a few things you might need to configure first:
 * You might need `xvfb` on headless SSH servers
 * If you're multiplexing SSH connections, the first one will need to have X11 forwarding enabled!
 
+# Stored configuration
+
+You can store your configuration in `~/.janeway/janeway.json`.
+
+These are currently the default values:
+
+```javascript
+{
+    "autocomplete" : {
+
+        // Set to false to turn autocomplete off
+        "enabled" : true,
+
+        // The height of the autocomplete popup
+        "height"  : 6
+    },
+
+    // output is the main output screen in the middle
+    "output" : {
+
+        // Main scrollbar style
+        "scrollbar": {
+            "bg" : "blue"
+        },
+
+        // General output style
+        "style" : {
+            "bg" : "transparent",
+            "fg" : "white"
+        }
+    },
+
+    // cli is the inputbox on the bottom
+    "cli" : {
+        "style" : {
+            "bg" : "white",
+            "fg" : "blue"
+        }
+    },
+
+    // the statusbar on the bottom
+    "status" : {
+        "enabled" : true,
+        "style"   : {
+            "bg": "grey",
+            "fg": "white"
+        }
+    },
+
+    // popups, also used by autocomplete
+    "popup" : {
+        "scrollbar": {
+            "bg" : "green"
+        },
+        "border": {
+            "type" : "line"
+        },
+        "style": {
+            "bg": "blue",
+            "fg": "white"
+        },
+        "shadow": true,
+    },
+
+    // menubar
+    "menu" : {
+        // This style only applies to unused parts and indicators
+        "style": {
+            "bg": "white"
+        },
+        "button": {
+            "bg"    : "white",
+            "fg"    : 235,
+            "focus" : {
+                "bg" : "red",
+                "fg" : 249
+            },
+            "hover" : {
+                "bg": "red",
+                "fg": 249
+            }
+        }
+    },
+
+    // indicators
+    "indicator": {
+        "style": {
+            "bg": 240,
+            "fg": 231,
+
+        }
+    },
+
+    "cli_history": {
+
+        // Amount of lines to save
+        "save"      : 100,
+
+        // Use title in filename?
+        "per_title" : true
+    }
+}
+```
 
 ## Author
 
