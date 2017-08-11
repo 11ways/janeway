@@ -4,7 +4,7 @@
 	"bin": {
 		"janeway": "bin/execbin.js"
 	},
-	"version": "0.2.3",
+	"version": "0.2.4-alpha",
 	"author": "Jelle De Loecker <jelle@develry.be>",
 	"keywords": [
 		"console",
@@ -27,5 +27,6 @@
 	},
 	"engines": {
 		"node": ">=0.10"
-	}
+	},
+	"private": true
 }

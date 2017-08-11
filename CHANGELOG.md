@@ -1,3 +1,5 @@
+## 0.2.4 (WIP)
+
 ## 0.2.3 (2017-08-11)
 
 * `Janeway#args_name_map` property can be used to change which name `ArgsLogLine` shows (by default it's the filename with .js stripped of)
