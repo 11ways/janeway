@@ -4,6 +4,8 @@
 * Fix bug where indicator hover text would not be saved if updated while already visible
 * Added capability to store external user configuration in `~/.janeway/janeway.json`
 * Added persistent cli history
+* Make autocomplete popup only as wide as the biggest suggestion
+* Don't show empty lines in autocomplete popup
 
 ## 0.2.2 (2017-04-17)
 
