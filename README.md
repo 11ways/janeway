@@ -195,7 +195,10 @@ These are currently the default values:
         "style" : {
             "bg" : "white",
             "fg" : "blue"
-        }
+        },
+
+        // Unselect open items on return
+        "unselect_on_return": true
     },
 
     // the statusbar on the bottom
