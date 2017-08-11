@@ -6,6 +6,7 @@
 * Added persistent cli history
 * Make autocomplete popup only as wide as the biggest suggestion
 * Don't show empty lines in autocomplete popup
+* Unselect current selected line when manually executing something via the cli
 
 ## 0.2.2 (2017-04-17)
 
