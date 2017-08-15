@@ -1,4 +1,6 @@
-## 0.2.4 (WIP)
+## 0.2.4 (2017-08-27)
+
+* Setting indicators shouldn't crash the program when janeway hasn't loaded
 
 ## 0.2.3 (2017-08-11)
 
