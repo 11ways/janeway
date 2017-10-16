@@ -1,5 +1,9 @@
 ## 0.2.5 (WIP)
 
+* Added `Logline#render`, which re-renders the given line
+* `ArgsLogLine#dissect` will now hook onto an object with a `reportProgress` method and display the progress as a percentage
+* Add `blessed.screen` default options to user config
+
 ## 0.2.4 (2017-08-27)
 
 * Setting indicators shouldn't crash the program when janeway hasn't loaded
