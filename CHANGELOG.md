@@ -6,6 +6,7 @@
 * Allow setting a custom `screen` in the `start(options)` to render Janeway to
 * `Janeway#redraw` now calls `realloc` (instead of `alloc`) and a `render`
 * An object's `namespace` will now be shown in an `ArgsLogLine`
+* Add callback to `fs.writeFile` so it no longer throws the deprecated warning error
 
 ## 0.2.4 (2017-08-27)
 
