@@ -7,6 +7,8 @@
 * `Janeway#redraw` now calls `realloc` (instead of `alloc`) and a `render`
 * An object's `namespace` will now be shown in an `ArgsLogLine`
 * Add callback to `fs.writeFile` so it no longer throws the deprecated warning error
+* Store the `vm_context` on the `Janeway` instance, so CLI variables can be set in other parts of the program
+* Set the `$0` variable using the `vm_context`
 
 ## 0.2.4 (2017-08-27)
 
