@@ -10,6 +10,7 @@
 * Store the `vm_context` on the `Janeway` instance, so CLI variables can be set in other parts of the program
 * Set the `$0` variable using the `vm_context`
 * Detect clipboard pasting of multiline strings
+* Crashing programs shouldn't cause broken terminals anymore
 
 ## 0.2.4 (2017-08-27)
 
