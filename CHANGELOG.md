@@ -1,4 +1,4 @@
-## 0.2.5 (WIP)
+## 0.2.5 (2018-03-02)
 
 * Added `Logline#render`, which re-renders the given line
 * `ArgsLogLine#dissect` will now hook onto an object with a `reportProgress` method and display the progress as a percentage

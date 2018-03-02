@@ -4,7 +4,7 @@
 	"bin": {
 		"janeway": "bin/execbin.js"
 	},
-	"version": "0.2.5-alpha",
+	"version": "0.2.5",
 	"author": "Jelle De Loecker <jelle@develry.be>",
 	"keywords": [
 		"console",
@@ -23,10 +23,9 @@
 	"dependencies": {
 		"copy-paste": "~1.3.0",
 		"blessed": "~0.1.81",
-		"protoblast": ">=0.3.3"
+		"protoblast": ">=0.5.2"
 	},
 	"engines": {
 		"node": ">=4.0.0"
-	},
-	"private": true
+	}
 }
