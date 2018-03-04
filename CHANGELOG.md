@@ -1,3 +1,7 @@
+## 0.3.0 (WIP)
+
+* Add hexadecimal view of Buffers
+
 ## 0.2.5 (2018-03-02)
 
 * Added `Logline#render`, which re-renders the given line
