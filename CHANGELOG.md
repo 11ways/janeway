@@ -1,6 +1,7 @@
 ## 0.3.0 (WIP)
 
 * Add hexadecimal view of Buffers
+* Fix getting the current scroll index on a click
 
 ## 0.2.5 (2018-03-02)
 
