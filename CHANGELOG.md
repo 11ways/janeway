@@ -2,6 +2,7 @@
 
 * Add hexadecimal view of Buffers
 * Fix getting the current scroll index on a click
+* Add pagination support & implement in Buffer hex view
 
 ## 0.2.5 (2018-03-02)
 
