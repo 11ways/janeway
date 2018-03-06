@@ -25,7 +25,7 @@ Janeway.start(function started(err) {
 	}
 
 	// If the file is binary, show the hex viewer
-	if (isBinaryFile.sync(main_file)) {
+	if (fs.existsSync(main_file) && isBinaryFile.sync(main_file)) {
 		try {
 			buffer = fs.readFileSync(main_file);
 			line = Janeway.print('info', [buffer]);
