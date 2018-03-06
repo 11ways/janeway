@@ -3,6 +3,8 @@
 * Add hexadecimal view of Buffers
 * Fix getting the current scroll index on a click
 * Add pagination support & implement in Buffer hex view
+* Added `mouseup`, `mousedown`, `mousemove` and implemented `mousedrag` event
+* Enabled selecting values in a `HexLogLine`
 
 ## 0.2.5 (2018-03-02)
 
