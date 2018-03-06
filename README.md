@@ -1,12 +1,31 @@
-Janeway
-=======
+<h1 align="center">
+  <b>janeway</b>
+</h1>
 
-A Node.js console REPL with object inspection and many other features.
+<div align="center">
+  <!-- Version - npm -->
+  <a href="https://www.npmjs.com/package/janeway">
+    <img src="https://img.shields.io/npm/v/janeway.svg" alt="Latest version on npm" />
+  </a>
 
-[![NPM version](http://img.shields.io/npm/v/janeway.svg)](https://npmjs.org/package/janeway) 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=skerit&url=https://github.com/skerit/janeway&title=Janeway&language=&tags=github&category=software)
+  <!-- License - MIT -->
+  <a href="https://github.com/skerit/janeway#license">
+    <img src="https://img.shields.io/github/license/skerit/janeway.svg" alt="Project license" />
+  </a>
+</div>
+<br>
+<div align="center">
+  🌌 A Node.js console REPL with object inspection
+</div>
+<div align="center">
+  <sub>
+    Coded with ❤️ by <a href="#authors">Jelle De Loecker</a>.
+  </sub>
+</div>
 
-![Console](https://raw.githubusercontent.com/skerit/janeway/master/img/console-03.gif "Console")
+![Janeway showcase](https://raw.githubusercontent.com/skerit/janeway/master/img/console-03.gif "Janeway showcase")
+
+![Buffer hex viewer](https://raw.githubusercontent.com/skerit/janeway/master/img/console-04-hex.gif "Buffer hex viewer")
 
 ## Install
 
