@@ -1,7 +1,11 @@
 #!/usr/bin/env node
-var Janeway = require('../lib/init.js'),
-    libpath = require('path'),
-    main_file;
+var isBinaryFile = require('isbinaryfile'),
+    Janeway      = require('../lib/init.js'),
+    libpath      = require('path'),
+    fs           = require('fs'),
+    main_file,
+    buffer,
+    line;
 
 // Get the wanted file to require
 if (process.argv[2]) {
@@ -18,6 +22,21 @@ Janeway.start(function started(err) {
 
 	if (err) {
 		console.error('Could not start Janeway: ' + err);
+	}
+
+	// If the file is binary, show the hex viewer
+	if (isBinaryFile.sync(main_file)) {
+		try {
+			buffer = fs.readFileSync(main_file);
+			line = Janeway.print('info', [buffer]);
+
+			// Simulate a click on index 25
+			line.select(25);
+		} catch (err) {
+			console.error('Error opening binary file:', err);
+		}
+
+		return;
 	}
 
 	try {
