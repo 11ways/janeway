@@ -27,6 +27,8 @@
 
 ![Janeway showcase](https://raw.githubusercontent.com/skerit/janeway/master/img/console-03.gif "Janeway showcase")
 
+## Hex viewer
+
 Version 0.3.0 facilitates Buffer inspecting with a built-in hex viewer:
 
 ![Buffer hex viewer](https://raw.githubusercontent.com/skerit/janeway/master/img/console-04-hex.gif "Buffer hex viewer")
