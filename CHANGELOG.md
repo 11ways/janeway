@@ -7,6 +7,8 @@
 * Enabled selecting values in a `HexLogLine`
 * Added `LogLin#getValueForClipboard`, for setting the value to copy to clipboard
 * Starting Janeway with a binary file as argument will show the hex viewer
+* Increase the captured stacktrace length
+* `shutdown_on_exception` is now false by default
 
 ## 0.2.5 (2018-03-02)
 
