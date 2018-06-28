@@ -200,6 +200,18 @@ These are currently the default values:
         "height"  : 6
     },
 
+    // When using janeway to start a script
+    "execbin": {
+        // Evaluate the files? (If false, then they are executed using `require`)
+        "evaluate_files": false
+    },
+
+    // Keyboard shortcuts
+    "shortcuts": {
+        // Exit on "Control+c"
+        "exit": ['C-c']
+    },
+
     // output is the main output screen in the middle
     "output" : {
 
