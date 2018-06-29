@@ -2,19 +2,29 @@
 var isBinaryFile = require('isbinaryfile'),
     Janeway      = require('../lib/init.js'),
     libpath      = require('path'),
+    evaluate     = null,
+    index,
+    args         = process.argv,
     fs           = require('fs'),
     vm           = require('vm'),
     main_file,
     buffer,
     line;
 
+index = args.indexOf('--evaluate');
+
+if (index > -1) {
+	evaluate = true;
+	args.splice(index, 1);
+}
+
 // Get the wanted file to require
-if (process.argv[2]) {
-	main_file = libpath.resolve(process.cwd(), process.argv[2]);
+if (args[2]) {
+	main_file = libpath.resolve(process.cwd(), args[2]);
 }
 
 // Remove janeway from the arguments array
-process.argv.splice(1, 1);
+args.splice(1, 1);
 
 // Start initializing janeway
 Janeway.start(function started(err) {
@@ -45,14 +55,14 @@ Janeway.start(function started(err) {
 
 	try {
 		if (main_file) {
-			title = JSON.stringify(process.argv[1]);
+			title = JSON.stringify(args[1]);
 			Janeway.setTitle('Janeway: ' + title);
 
 			if (require.main) {
 				require.main.janeway_required = main_file;
 			}
 
-			if (Janeway.config.execbin.evaluate_files) {
+			if (evaluate || Janeway.config.execbin.evaluate_files) {
 
 				Janeway.print('info', ['Evaluating main file', title]);
 

@@ -9,10 +9,11 @@
 * Starting Janeway with a binary file as argument will show the hex viewer
 * Increase the captured stacktrace length
 * `shutdown_on_exception` is now false by default
-* Add exit shortcut to the configuration, fixes #11
-* Add basic evaluation support to the execbin, fixes #10
+* Add exit shortcut to the configuration, refs #11
+* Add basic evaluation support to the execbin, refs #10
 * Read out getters to object inspection
 * Pad the object key length to the longest length of all keys
+* Also enable module evaluation when supplying `--evaluate`, refs #10
 
 ## 0.2.5 (2018-03-02)
 
