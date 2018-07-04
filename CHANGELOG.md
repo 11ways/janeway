@@ -1,3 +1,7 @@
+## 0.3.1 (2018-07-04)
+
+* Fix additional opening curly braces
+
 ## 0.3.0 (2018-07-01)
 
 * Add hexadecimal view of Buffers
