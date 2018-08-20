@@ -1,3 +1,7 @@
+## 0.3.2 (WIP)
+
+* Make the minimum stack size configurable, defaults to 6
+
 ## 0.3.1 (2018-07-04)
 
 * Fix additional opening curly braces
