@@ -1,4 +1,4 @@
-## 0.3.2 (WIP)
+## 0.3.2 (2018-08-27)
 
 * Make the minimum stack size configurable, defaults to 6
 
