@@ -1,4 +1,4 @@
-## 0.3.3 (WIP)
+## 0.3.3 (2018-10-18)
 
 * Finally add resize support
 * Upgrade to `neo-blessed` fork
