@@ -230,10 +230,13 @@ These are currently the default values:
     // when inspecting properties
     properties: {
         // see if 2 objects are alike, in order to deduplicate log line
-        alike_objects : false,
+        alike_objects  : false,
+
+        // print out getter values by default? (Or show "...")
+        show_get_value : false,
 
         // sort the properties alphabetically by key
-        sort          : true
+        sort           : true
     },
 
     // cli is the inputbox on the bottom

@@ -2,6 +2,8 @@
 
 * Sort the properties by key (new boolean setting "properties.sort")
 * Don't perform expensive object compare function by default (new boolean setting "properties.alike_objects")
+* Don't show getter property values by default, they now require a click (boolean setting "properties.show_get_value")
+* Cleanup the inline property inspection (used to use `utils.inspect`)
 
 ## 0.3.3 (2018-10-18)
 
