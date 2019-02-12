@@ -1,3 +1,7 @@
+## 0.3.4 (WIP)
+
+* Sort the properties by key (new boolean setting "properties.sort")
+
 ## 0.3.3 (2018-10-18)
 
 * Finally add resize support
