@@ -1,6 +1,7 @@
 ## 0.3.4 (WIP)
 
 * Sort the properties by key (new boolean setting "properties.sort")
+* Don't perform expensive object compare function by default (new boolean setting "properties.alike_objects")
 
 ## 0.3.3 (2018-10-18)
 

@@ -227,6 +227,15 @@ These are currently the default values:
         }
     },
 
+    // when inspecting properties
+    properties: {
+        // see if 2 objects are alike, in order to deduplicate log line
+        alike_objects : false,
+
+        // sort the properties alphabetically by key
+        sort          : true
+    },
+
     // cli is the inputbox on the bottom
     "cli" : {
         "style" : {
