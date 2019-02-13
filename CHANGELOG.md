@@ -6,6 +6,7 @@
 * Cleanup the inline property inspection (used to use `utils.inspect`)
 * Date objects now show a formatted string
 * Use ellipsis instead of 3 dots
+* Allow config to be in a `janeway.js` file, too
 
 ## 0.3.3 (2018-10-18)
 

@@ -185,7 +185,7 @@ Here are a few things you might need to configure first:
 
 # Stored configuration
 
-You can store your configuration in `~/.janeway/janeway.json`.
+You can store your configuration in `~/.janeway/janeway.js` or `~/.janeway/janeway.json`.
 
 These are currently the default values:
 
@@ -210,6 +210,19 @@ These are currently the default values:
     "shortcuts": {
         // Exit on "Control+c"
         "exit": ['C-c']
+    },
+
+    // Settings for the caller info (time & file info at the start of a line)
+    caller_info: {
+
+        // Maximum stack size to get
+        stack_size: 6,
+
+        // How long the filename can be before it's truncated
+        max_filename_length: 10,
+
+        // The minimum length of the info item, after which it is padded with spaces
+        min_length: 25
     },
 
     // output is the main output screen in the middle
@@ -244,7 +257,27 @@ These are currently the default values:
 
     // String placeholders
     strings: {
-        ellipsis : '…'
+        ellipsis : '…',
+
+        // The gutters (icons used at the start of each line)
+        // Using newer emojis is not recommended: the terminal library
+        // used by janeway doesn't properly support them
+        gutters: {
+            // Fancy >
+            input   : '\u276f ',
+
+            // Fancy <
+            output  : '\u276e ',
+
+            // Skull
+            error   : '\u2620 Error:',
+
+            // Warning sign
+            warning : '\u26a0 ',
+
+            // Circled small letter i
+            info    : '\u24D8 '
+        }
     },
 
     // cli is the inputbox on the bottom
