@@ -242,6 +242,11 @@ These are currently the default values:
         sort           : true
     },
 
+    // String placeholders
+    strings: {
+        ellipsis : '…'
+    },
+
     // cli is the inputbox on the bottom
     "cli" : {
         "style" : {

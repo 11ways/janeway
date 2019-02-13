@@ -5,6 +5,7 @@
 * Don't show getter property values by default, they now require a click (boolean setting "properties.show_get_value")
 * Cleanup the inline property inspection (used to use `utils.inspect`)
 * Date objects now show a formatted string
+* Use ellipsis instead of 3 dots
 
 ## 0.3.3 (2018-10-18)
 
