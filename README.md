@@ -229,13 +229,16 @@ These are currently the default values:
 
     // when inspecting properties
     properties: {
-        // see if 2 objects are alike, in order to deduplicate log line
+        // See if 2 objects are alike, in order to deduplicate log line
         alike_objects  : false,
 
-        // print out getter values by default? (Or show "...")
+        // The format to use when showing a date
+        date_format    : 'D Y-m-d H:i:s',
+
+        // Print out getter values by default? (Or show "...")
         show_get_value : false,
 
-        // sort the properties alphabetically by key
+        // Sort the properties alphabetically by key
         sort           : true
     },
 
