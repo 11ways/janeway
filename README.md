@@ -26,6 +26,10 @@
 </div>
 
 ![Janeway showcase](https://raw.githubusercontent.com/skerit/janeway/master/img/console-03.gif "Janeway showcase")
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fskerit%2Fjaneway.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fskerit%2Fjaneway?ref=badge_shield)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fskerit%2Fjaneway.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fskerit%2Fjaneway?ref=badge_large)
 
 ## Hex viewer
 
