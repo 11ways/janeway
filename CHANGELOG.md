@@ -7,6 +7,7 @@
 * Date objects now show a formatted string
 * Use ellipsis instead of 3 dots
 * Allow config to be in a `janeway.js` file, too
+* Use `path.sep` to get the correct separator on windows
 
 ## 0.3.3 (2018-10-18)
 
