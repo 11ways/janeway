@@ -8,6 +8,7 @@
 * Use ellipsis instead of 3 dots
 * Allow config to be in a `janeway.js` file, too
 * Use `path.sep` to get the correct separator on windows
+* Indicators can now be used to create menus
 
 ## 0.3.3 (2018-10-18)
 

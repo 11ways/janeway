@@ -170,6 +170,17 @@ indicator.setHover('This is some hovertext');
 indicator.remove();
 ```
 
+Since version 0.3.4 indicators can also act like menus:
+
+```javascript
+var file_menu = Janeway.addIndicator('File');
+
+// Add an item and a callback
+file_menu.addItem('Quit', function onClick(e, config) {
+    process.exit();
+});
+```
+
 # Copy to clipboard
 
 At the top of the screen there is a menubar, currently it only contains 1 button: "Copy".
