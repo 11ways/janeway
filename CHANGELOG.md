@@ -1,3 +1,7 @@
+## 0.3.5 (WIP)
+
+* Add support for using `await` in the CLI
+
 ## 0.3.4 (2020-07-11)
 
 * Sort the properties by key (new boolean setting "properties.sort")
