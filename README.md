@@ -19,7 +19,7 @@
 </div>
 <div align="center">
   <sub>
-    Coded with ❤️ by <a href="#authors">Jelle De Loecker</a>.
+    Coded with ❤️ by <a href="#authors">Eleven Ways</a>.
   </sub>
   <br>
   &nbsp;
@@ -368,7 +368,7 @@ These are currently the default values:
 
 ## Author
 
-You can follow me on twitter: [![Twitter](http://i.imgur.com/wWzX9uB.png)@skeriten](https://www.twitter.com/skeriten)
+Janeway is developed at [Eleven Ways](https://www.elevenways.be/), a team of [IAAP Certified Accessibility Specialists](https://www.accessibilityassociation.org/).
 
 
 ## License

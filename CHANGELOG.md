@@ -1,4 +1,4 @@
-## 0.3.5 (WIP)
+## 0.3.5 (2020-07-21)
 
 * Add support for using `await` in the CLI
 
