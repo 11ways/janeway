@@ -1,6 +1,7 @@
 ## 0.3.5 (2020-07-21)
 
 * Add support for using `await` in the CLI
+* Increase the `caller_info.min_length` default length to 26
 
 ## 0.3.4 (2020-07-11)
 
