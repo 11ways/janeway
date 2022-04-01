@@ -303,12 +303,30 @@ These are currently the default values:
     },
 
     // the statusbar on the bottom
-    "status" : {
-        "enabled" : true,
-        "style"   : {
-            "bg": "grey",
-            "fg": "white"
+    status : {
+        enabled : true,
+        style   : {
+            bg: "grey",
+            fg: "white"
+        },
+        time    : {
+            enabled: true,
+            fg     : 'yellow',
+            bg     : null,
         }
+    },
+
+    // The behaviour of the "Copy JSON" button
+    copy_json: {
+        enabled : true,
+        title   : 'Copy JSON',
+
+        // Try to copy to clipboard?
+        try_clipboard: true,
+
+        // If true, will dump into your `.janeway/clipboard.json` file.
+        // If it's a string, will dump to that path
+        dump_to_file : true,
     },
 
     // popups, also used by autocomplete
