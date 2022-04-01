@@ -1,6 +1,7 @@
 ## 0.3.6 (WIP)
 
 * Get some more `Map` feedback
+* Merge UX tweaks from j1mmie/janeway
 
 ## 0.3.5 (2020-07-21)
 
