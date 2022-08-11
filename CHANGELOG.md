@@ -4,6 +4,7 @@
 * Merge UX tweaks from j1mmie/janeway
 * Make the style of the time part of a status message configurable
 * Make `Copy JSON` button also dump to a file
+* Make scroll-wheel scroll step configurable
 
 ## 0.3.5 (2020-07-21)
 

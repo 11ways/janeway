@@ -210,7 +210,10 @@ These are currently the default values:
         // The height of the autocomplete popup
         "height"  : 6
     },
-
+    "scroll": {
+        // How much should be scrolled when using the mousewheel
+        "step": 5,
+    },
     // When using janeway to start a script
     "execbin": {
         // Evaluate the files? (If false, then they are executed using `require`)
