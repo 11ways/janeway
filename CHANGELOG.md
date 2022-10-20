@@ -7,6 +7,7 @@
 * Make scroll-wheel scroll step configurable
 * Refuse to start on Bun for now
 * Add `Janeway#reloadScreen()`, which re-enables the alternate buffer & mouse
+* Supply the original `stdout` to blessed so reloading the screen will work
 
 ## 0.3.5 (2020-07-21)
 
