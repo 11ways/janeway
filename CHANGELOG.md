@@ -6,6 +6,7 @@
 * Make `Copy JSON` button also dump to a file
 * Make scroll-wheel scroll step configurable
 * Refuse to start on Bun for now
+* Add `Janeway#reloadScreen()`, which re-enables the alternate buffer & mouse
 
 ## 0.3.5 (2020-07-21)
 
