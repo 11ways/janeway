@@ -1,4 +1,4 @@
-## 0.3.6 (WIP)
+## 0.3.6 (2022-10-22)
 
 * Get some more `Map` feedback
 * Merge UX tweaks from j1mmie/janeway
