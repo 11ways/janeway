@@ -9,6 +9,7 @@
 * Add `Janeway#reloadScreen()`, which re-enables the alternate buffer & mouse
 * Supply the original `stdout` to blessed so reloading the screen will work
 * Add `extra_output` stream option to which extra control sequences will also be sent
+* Fix an off-by-one click issue
 
 ## 0.3.5 (2020-07-21)
 
