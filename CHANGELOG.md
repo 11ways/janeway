@@ -1,3 +1,7 @@
+## 0.4.0 (WIP)
+
+* Upgrade to protoblast v0.8.0
+
 ## 0.3.6 (2022-10-22)
 
 * Get some more `Map` feedback
