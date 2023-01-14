@@ -1,4 +1,4 @@
-## 0.4.0 (WIP)
+## 0.4.0 (2023-01-14)
 
 * Upgrade to protoblast v0.8.0
 
