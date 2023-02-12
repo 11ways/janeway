@@ -22,7 +22,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"neo-blessed"  : "~0.2.0",
-		"isbinaryfile" : "~3.0.3",
+		"isbinaryfile" : "~5.0.0",
 		"protoblast"   : "~0.8.0"
 	},
 	"engines": {
