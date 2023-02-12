@@ -187,12 +187,8 @@ At the top of the screen there is a menubar, currently it only contains 1 button
 
 When you click this, the currently selected element will be copied into the clipboard. Objects will be JSON-ified using JSON-Dry.
 
-Here are a few things you might need to configure first:
-
-* Install xclip
-* Enable X11 forwarding when using an SSH session
-* You might need `xvfb` on headless SSH servers
-* If you're multiplexing SSH connections, the first one will need to have X11 forwarding enabled!
+Because the dependency that handled clipboard support is abandoned, clipboard support is currently not available.
+Instead, the data will be stored in a file in `~/.janeway/clipboard.json`
 
 # Stored configuration
 
