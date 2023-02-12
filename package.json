@@ -21,7 +21,7 @@
 	"repository": "11ways/janeway",
 	"license": "MIT",
 	"dependencies": {
-		"neo-blessed"  : "~0.2.0",
+		"reblessed"    : "0.2.0",
 		"isbinaryfile" : "~5.0.0",
 		"protoblast"   : "~0.8.0"
 	},
