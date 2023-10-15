@@ -7,6 +7,8 @@
 * Improve Bun v1.x compatibility
 * Add separate `IndicatorItem` class instead of using simple objects
 * Add sort support to `Indicator` class
+* Create 3 indicator areas: left, center & right
+* Add main menu to the left area, move `Copy JSON` button to it
 
 ## 0.4.0 (2023-01-14)
 
