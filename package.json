@@ -4,7 +4,7 @@
 	"bin": {
 		"janeway": "bin/execbin.js"
 	},
-	"version": "0.4.1",
+	"version": "0.4.1-alpha",
 	"author": "Jelle De Loecker <jelle@elevenways.be>",
 	"keywords": [
 		"console",
@@ -23,7 +23,7 @@
 	"dependencies": {
 		"reblessed"    : "0.2.0",
 		"isbinaryfile" : "~5.0.0",
-		"protoblast"   : "~0.8.0"
+		"protoblast"   : "~0.8.13"
 	},
 	"engines": {
 		"node": ">=14.0.0"

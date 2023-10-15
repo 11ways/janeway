@@ -4,6 +4,7 @@
 * Upgrade `isBinaryFile` dependency
 * Switch from `neo-blessed` to `reblessed` module
 * Small editarea fix
+* Improve Bun v1.x compatibility
 
 ## 0.4.0 (2023-01-14)
 
