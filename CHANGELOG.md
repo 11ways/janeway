@@ -3,6 +3,7 @@
 * Remove clipboard support (`copy-paste` dependency is abandoned)
 * Upgrade `isBinaryFile` dependency
 * Switch from `neo-blessed` to `reblessed` module
+* Small editarea fix
 
 ## 0.4.0 (2023-01-14)
 
