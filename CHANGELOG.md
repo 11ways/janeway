@@ -5,6 +5,8 @@
 * Switch from `neo-blessed` to `reblessed` module
 * Small editarea fix
 * Improve Bun v1.x compatibility
+* Add separate `IndicatorItem` class instead of using simple objects
+* Add sort support to `Indicator` class
 
 ## 0.4.0 (2023-01-14)
 
