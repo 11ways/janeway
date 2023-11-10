@@ -2,6 +2,7 @@
 
 * Small "getting property of `undefined`" fix
 * Support for customized instance representation
+* Fix editarea issue
 
 ## 0.4.2 (2023-10-15)
 
