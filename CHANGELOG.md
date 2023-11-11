@@ -4,6 +4,7 @@
 * Support for customized instance representation
 * Fix editarea issue
 * Fix terminal resize breaking the interface
+* Add `Janeway#has_started` property
 
 ## 0.4.2 (2023-10-15)
 
