@@ -1,3 +1,7 @@
+## 0.4.4 (WIP)
+
+* Remove usage of bound `startsWith` method
+
 ## 0.4.3 (2024-02-13)
 
 * Small "getting property of `undefined`" fix
