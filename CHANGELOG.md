@@ -1,6 +1,7 @@
 ## 0.4.4 (WIP)
 
 * Remove usage of bound `startsWith` method
+* Make `ArgsLogLine#dissect()` clear the maps before starting
 
 ## 0.4.3 (2024-02-13)
 
