@@ -1,3 +1,7 @@
+## 0.4.5 (2024-02-15)
+
+* Fix package.json
+
 ## 0.4.4 (2024-02-14)
 
 * Remove usage of bound `startsWith` method
