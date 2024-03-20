@@ -1,3 +1,7 @@
+## 0.4.6 (WIP)
+
+* Use Protoblast methods to get an object's symbols & getters
+
 ## 0.4.5 (2024-02-15)
 
 * Fix package.json
