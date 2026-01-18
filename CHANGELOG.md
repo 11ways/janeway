@@ -1,6 +1,7 @@
 ## 0.4.6 (WIP)
 
 * Use Protoblast methods to get an object's symbols & getters
+* Add compact-mode, which disables colours and less loging when not using the tui
 
 ## 0.4.5 (2024-02-15)
 
