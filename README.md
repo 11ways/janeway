@@ -187,8 +187,9 @@ At the top of the screen there is a menubar, currently it only contains 1 button
 
 When you click this, the currently selected element will be copied into the clipboard. Objects will be JSON-ified using JSON-Dry.
 
-Because the dependency that handled clipboard support is abandoned, clipboard support is currently not available.
-Instead, the data will be stored in a file in `~/.janeway/clipboard.json`
+Clipboard support uses OSC 52 escape sequences, which allows copying to work even over SSH sessions (if your terminal emulator supports it - most modern terminals like iTerm2, kitty, Alacritty, and Windows Terminal do).
+
+Additionally, the data can be stored in a file in `~/.janeway/clipboard.json` (enabled by default).
 
 # Stored configuration
 

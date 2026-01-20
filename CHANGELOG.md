@@ -2,6 +2,7 @@
 
 * Use Protoblast methods to get an object's symbols & getters
 * Add compact-mode, which disables colours and less loging when not using the tui
+* Re-add clipboard support using OSC 52 escape sequences (works over SSH)
 
 ## 0.4.5 (2024-02-15)
 
